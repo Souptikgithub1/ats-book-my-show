@@ -1,0 +1,30 @@
+@import '../Header.scss';
+@import '../../../scss/variables.scss';
+
+.navbar-bottom-container {
+  background-color: $theme-color-2;
+  flex: 4;
+
+  display: flex;
+  justify-content: center;
+  height: 37px;
+}
+
+
+
+.nav-bottom {
+  width: $nav-width;
+
+  display: flex;
+  align-items: center;
+}
+
+.category {
+  margin-right: 22px;
+  color: #cacacb;
+}
+
+.extras {
+  margin-left: 22px;
+  font-size: 14px;
+}
