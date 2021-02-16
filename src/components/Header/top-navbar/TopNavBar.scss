@@ -13,6 +13,7 @@
     width: $nav-width;
 
     display: flex;
+    min-height: 70px;
 }
 
 
@@ -34,9 +35,7 @@
 }
 
 .search-icon {
-    padding: 7px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 8px 10px;
     background: #fff;
     border-right: none;
     color: #888888;
@@ -48,9 +47,7 @@
     // min-width: 50px;
     height: 35px;
     border-width: 0;
-    border-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
+    border-radius: 0 2px 2px 0;
     padding: 0;
     outline: none;
     width: 100%;
